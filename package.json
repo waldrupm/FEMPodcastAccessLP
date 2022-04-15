@@ -1,0 +1,14 @@
+{
+  "name": "pod-request-access-landing-page",
+  "version": "1.0.0",
+  "description": "![Design preview for the Pod request access landing page coding challenge](./preview.jpg)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Waldrup",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
