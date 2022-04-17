@@ -472,20 +472,57 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin: 0px;
 }
 
-.mb-3 {
-  margin-bottom: 0.75rem;
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .mb-6 {
   margin-bottom: 1.5rem;
 }
 
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
 .grid {
   display: grid;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .w-4\/5 {
@@ -504,20 +541,66 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: space-between;
 }
 
-.gap-0 {
-  gap: 0px;
-}
-
 .gap-1 {
   gap: 0.25rem;
 }
 
-.p-6 {
-  padding: 1.5rem;
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.bg-dk-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(18 23 37 / var(--tw-bg-opacity));
+}
+
+.bg-dk-gray {
+  --tw-bg-opacity: 1;
+  background-color: rgb(44 52 75 / var(--tw-bg-opacity));
+}
+
+.bg-lt-green {
+  --tw-bg-opacity: 1;
+  background-color: rgb(84 230 175 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-95 {
+  --tw-bg-opacity: 0.95;
+}
+
+.bg-mobile-bg {
+  background-image: url('/assets/mobile/image-host.jpg');
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .p-0 {
   padding: 0px;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.pt-0 {
+  padding-top: 0px;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
 }
 
 .text-center {
@@ -528,26 +611,60 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-family: Chivo, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-almost-double {
+  font-size: 26px;
+  line-height: 38px;
 }
 
 .text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .uppercase {
   text-transform: uppercase;
 }
 
-.text-med-gray {
+.text-lt-green {
   --tw-text-opacity: 1;
-  color: rgb(90 102 138 / var(--tw-text-opacity));
+  color: rgb(84 230 175 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-lt-gray {
+  --tw-text-opacity: 1;
+  color: rgb(194 203 229 / var(--tw-text-opacity));
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.opacity-80 {
+  opacity: 0.8;
+}
+
+.opacity-30 {
+  opacity: 0.3;
+}
+
+.opacity-40 {
+  opacity: 0.4;
+}
+
+.hover\:bg-lt-green-over:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(179 255 226 / var(--tw-bg-opacity));
 }

@@ -16,8 +16,15 @@ module.exports = {
       fontFamily: {
         sans: ["Chivo", ...defaultTheme.fontFamily.sans],
       },
+      fontSize: {
+        "almost-double": ["26px", "38px"],
+        sm: ["15px", "25px"],
+      },
       borderWidth: {
         1: "1px",
+      },
+      backgroundImage: {
+        "mobile-bg": "url('/assets/mobile/image-host.jpg')",
       },
     },
   },

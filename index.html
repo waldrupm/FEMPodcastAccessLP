@@ -8,29 +8,39 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Chivo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&display=swap" rel="stylesheet"> w
   <link rel="stylesheet" href="./dist/output.css">
 
   <title>Frontend Mentor | Pod request access landing page</title>
 </head>
 
-<body class="font-sans">
-  <main class="p-6 text-center">
-    <h1 class="text-2xl font-sans uppercase mb-4"">Publish your podcasts everywhere.</h1>
+<body class="font-sans bg-mobile-bg bg-cover mt-0 pt-0">
+  <main class="text-center bg-dk-blue bg-opacity-95 h-screen w-full px-5">
+    <img src="./assets/desktop/logo.svg" alt="Pod Logo" class="mt-10 mb-14 inline">
+    <h1 class="text-almost-double font-light uppercase mb-5 text-lt-green"">Publish your podcasts <span class="
+      text-white">
+      everywhere</span>.</h1>
 
-    <p class=" text-sm text-med-gray mb-6"">
+    <p class=" text-sm text-lt-gray font-light mb-6"">
       Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify,
       Apple Podcasts, Google Podcasts, Pocket Casts and more!
       </p>
 
       <div class=" grid grid-cols-4 gap-1 place-items-center justify-between">
-        <img src="./assets/desktop/spotify.svg" alt="Spotify Logo" class="p-0 m-0 w-4/5">
-        <img src="./assets/desktop/apple-podcast.svg" alt="Apple Podcasts Logo" class="p-0 m-0 w-4/5">
-        <img src="./assets/desktop/google-podcasts.svg" alt="Google Podcasts Logo" class="p-0 m-0 w-4/5">
-        <img src="./assets/desktop/pocket-casts.svg" alt="Pocket Casts Logo" class="p-0 m-0 w-4/5">
+      <img src="./assets/desktop/spotify.svg" alt="Spotify Logo" class="p-0 m-0 w-4/5">
+      <img src="./assets/desktop/apple-podcast.svg" alt="Apple Podcasts Logo" class="p-0 m-0 w-4/5">
+      <img src="./assets/desktop/google-podcasts.svg" alt="Google Podcasts Logo" class="p-0 m-0 w-4/5">
+      <img src="./assets/desktop/pocket-casts.svg" alt="Pocket Casts Logo" class="p-0 m-0 w-4/5">
       </div>
 
-      <button>Request access</button>
+    <div>
+      <form action="#" class="mt-12 mb-12 pb-12">
+        <input type="email" placeholder="Email address"
+          class="bg-dk-gray rounded-full px-8 py-4 block w-full text-sm font-semibold my-4">
+        <button class="rounded-full py-4 w-full text-sm font-semibold bg-lt-green hover:bg-lt-green-over">Request
+          access</button>
+      </form>
+    </div>
 
   </main>
 </body>
