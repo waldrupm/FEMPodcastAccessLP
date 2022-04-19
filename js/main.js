@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   emailForm.addEventListener("submit", (e) => {
     e.preventDefault()
-    console.log("checking")
     if (!ValidateEmail(emailInput.value)) {
       errorText.classList.remove("hidden")
     } else {
