@@ -601,7 +601,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bg-mobile-bg {
-  background-image: url('/assets/mobile/image-host.jpg');
+  background-image: url('../assets/mobile/image-host.jpg');
 }
 
 .bg-cover {
@@ -814,7 +814,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   .md\:bg-tablet-bg {
-    background-image: url('/assets/tablet/image-host.jpg');
+    background-image: url('../assets/tablet/image-host.jpg');
   }
 
   .md\:bg-auto {
@@ -902,7 +902,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   .lg\:bg-desktop-bg {
-    background-image: url('/assets/desktop/image-host.jpg');
+    background-image: url('../assets/desktop/image-host.jpg');
   }
 
   .lg\:bg-\[right_top_6rem\] {
