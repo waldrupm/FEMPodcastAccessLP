@@ -25,9 +25,9 @@ module.exports = {
         1: "1px",
       },
       backgroundImage: {
-        "mobile-bg": "url('/assets/mobile/image-host.jpg')",
-        "tablet-bg": "url('/assets/tablet/image-host.jpg')",
-        "desktop-bg": "url('/assets/desktop/image-host.jpg')",
+        "mobile-bg": "url('./assets/mobile/image-host.jpg')",
+        "tablet-bg": "url('./assets/tablet/image-host.jpg')",
+        "desktop-bg": "url('./assets/desktop/image-host.jpg')",
       },
     },
   },
