@@ -1,7 +1,7 @@
 const defaultTheme = require("tailwindcss/defaultTheme")
 
 module.exports = {
-  content: ["./index.html"],
+  content: ["./index.html", "./js/*.js"],
   theme: {
     extend: {
       colors: {
@@ -12,6 +12,7 @@ module.exports = {
         "med-gray": "#5A668A",
         "dk-gray": "#2C344B",
         "dk-blue": "#121725",
+        "error-red": "#FB3E3E",
       },
       fontFamily: {
         sans: ["Chivo", ...defaultTheme.fontFamily.sans],
